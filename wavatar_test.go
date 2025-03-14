@@ -62,7 +62,7 @@ func TestSameHashProducesSameImage(t *testing.T) {
 }
 
 func TestEmptyHash(t *testing.T) {
-	hash := []byte{}
+	var hash []byte
 	img := New(hash)
 
 	if img == nil {
