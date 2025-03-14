@@ -1,3 +1,3 @@
-# go-wavatars
+# wavatar
 
 Gravatar wavatar ported to Go.
